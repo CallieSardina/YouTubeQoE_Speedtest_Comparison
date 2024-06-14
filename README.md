@@ -10,7 +10,7 @@ Run the background traffic for the duration of the data collection tasks.
 
 ## Run Speedtest on Background Traffic 
 
-Set the time to start the Speedtest stats collection in the speedtest() function in speedtest.ipynb. Keep in mind that the raspi nodes are 7 hours ahead.
+Set the time to start the Speedtest stats collection in the SpeedTest class (run function) in speedtest.ipynb. Keep in mind that the raspi nodes are 7 hours ahead. In the SpeedTest function in the pipeline, specify the number of times you want to run the Speedtests and the delay in between each Speedtest
 
 Run the Speedtest, speedtest.ipynb.
 
